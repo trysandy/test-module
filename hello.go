@@ -1,5 +1,5 @@
 package test_module
 
-func Hello() string {
-	return "Helloooo Wooorldddd"
+func Hello(name string) string {
+	return "Helloooo " + name
 }
